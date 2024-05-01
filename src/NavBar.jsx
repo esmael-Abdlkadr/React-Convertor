@@ -12,13 +12,13 @@ function NavBarComp() {
       </NavbarBrand>
       <NavbarToggle />
       <NavbarCollapse>
-        <NavbarLink href="#" active>
+        <NavbarLink href="/" active>
           Home
         </NavbarLink>
 
-        <NavbarLink href="#">Speech To Text(STT)</NavbarLink>
-        <NavbarLink href="#">Text to Speech(TSS)</NavbarLink>
-        <Button href="#">Contact the Developer</Button>
+        <NavbarLink href="/stt">Speech To Text(STT)</NavbarLink>
+        <NavbarLink href="/tts">Text to Speech(TSS)</NavbarLink>
+        <Button href="https://github.com/smithCoders"  target={"_blank"}>Contact the Developer</Button>
       </NavbarCollapse>
     </Navbar>
   );

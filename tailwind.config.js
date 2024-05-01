@@ -6,9 +6,13 @@ export default {
     "node_modules/flowbite-react/lib/esm/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        maxWidth: "1200px",
+        padding: "0 32px",
+        margin: "0 auto",
+      },
+    },
   },
-  plugins: [require("daisyui"), ("flowbite/plugin")],
-
-
-}
+  plugins: [require("daisyui"), "flowbite/plugin"],
+};
