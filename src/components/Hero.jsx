@@ -3,7 +3,8 @@ import { Button } from "flowbite-react";
 import { HiOutlineArrowRight } from "react-icons/hi";
 function Hero() {
   return (
-    <section className={"bg-[#fff] pt-[48px] pb-[96px]"}>
+    <section className={"bg-[#fff]"}>
+      <div></div>
       <div
         className={
           "max-w-[1300px]  mx-0 my-auto py-0 px-8 grid grid-cols-2 gap-24 items-center "

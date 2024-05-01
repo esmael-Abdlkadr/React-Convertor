@@ -17,6 +17,7 @@ function Features() {
         {features.map((feature, index) => (
           <Feature
             key={index}
+            icon={feature.icon}
             title={feature.title}
             description={feature.description}
           />

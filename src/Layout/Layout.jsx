@@ -3,6 +3,7 @@ import NavBarComp from "../NavBar.jsx";
 import Hero from "../components/Hero.jsx";
 import HowitWork from "../components/HowitWork.jsx";
 import Features from "../components/Features.jsx";
+import Footer from "../components/Footer.jsx";
 
 function Layout() {
   return (
@@ -12,6 +13,8 @@ function Layout() {
         <Hero />
         <HowitWork />
         <Features />
+        <div className="divider"></div>
+        <Footer />
       </div>
     </div>
   );
