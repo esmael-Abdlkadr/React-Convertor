@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/*" element={<Layout />} />
-        <Route path="/tss" element={<TextToVoice />} />
+        <Route path="/tts" element={<TextToVoice />} />
         <Route path="/stt" element={<STT />} />
       </Routes>
     </BrowserRouter>
