@@ -4,18 +4,30 @@ import { Button } from "flowbite-react";
 import { HiOutlineArrowRight } from "react-icons/hi";
 function HowitWork() {
   return (
-    <section className={"pb-[96px] "}>
+    <section className={"pb-[96px]   mx-0  my-auto  px-8"}>
       <div className={"container"}>
         <h2 className={"text-3xl text-[#0f172a] text-center  font-semibold"}>
           How it Work
         </h2>
       </div>
-      <div className={"container grid grid-cols-2 gap-x-16 gap-y-24"}>
+      <div
+        className={
+          "container grid grdi-cols-1   superSmall:grid-cols-2 gap-x-16 gap-y-24"
+        }
+      >
         {/*    step-1*/}
         <div>
-          <p className={"text-[86px] font-semibold text-[#ddd] mb-6"}>01</p>
+          <p
+            className={
+              " text-[60px] md:text-[86px] font-semibold text-[#ddd] mb-6"
+            }
+          >
+            01
+          </p>
           <h3
-            className={"text-3xl leading-3 mb-8 text-[#1e293b] font-semibold"}
+            className={
+              " sm:text-[20px] text-3xl leading-3 mb-8 text-[#1e293b] font-semibold text-center superSmall:text-left  whitespace-nowrap"
+            }
           >
             speech to text (STT)
           </h3>
@@ -23,8 +35,7 @@ function HowitWork() {
             Effortlessly transcribe spoken words into written text, even in
             Amharic. Our speech-to-text conversion technology accurately
             captures verbal communication in real-time, supporting multiple
-            languages including Amharic. Experience seamless integration and
-            enhance productivity with our intuitive solution.
+            languages including Amharic.
           </p>
           <Button className={""}>
             Test Speech to Text
@@ -40,9 +51,17 @@ function HowitWork() {
           <img src={img2} alt={"img-1"} />
         </div>
         <div>
-          <p className={"text-[86px] font-semibold text-[#ddd] mb-3"}>02</p>
+          <p
+            className={
+              "text-[60px] md:text-[86px] font-semibold text-[#ddd] mb-3"
+            }
+          >
+            02
+          </p>
           <h3
-            className={"text-3xl leading-3 mb-8 text-[#1e293b] font-semibold"}
+            className={
+              " sm:text-[20px] text-3xl leading-3 mb-8 text-[#1e293b] font-semibold  whitespace-nowrap"
+            }
           >
             Text to Speech (TSS)
           </h3>
@@ -50,9 +69,7 @@ function HowitWork() {
             Transform written text into lifelike speech effortlessly. Our
             text-to-speech conversion technology seamlessly synthesizes text
             into natural-sounding speech in real-time. While we support various
-            languages, please note that Amharic is currently not supported.
-            Experience fluid communication and accessibility with our intuitive
-            solution
+            languages.
           </p>
           <Button className={""}>
             Test Text to Speech

@@ -12,6 +12,9 @@ export default {
         padding: "0 32px",
         margin: "0 auto",
       },
+      screens: {
+        superSmall: "530px",
+      },
     },
   },
   plugins: [require("daisyui"), "flowbite/plugin"],

@@ -7,14 +7,14 @@ function Hero() {
       <div></div>
       <div
         className={
-          "max-w-[1300px]  mx-0 my-auto py-0 px-8 grid grid-cols-2 gap-24 items-center "
+          "max-w-[1300px]  mx-0 my-auto py-0 px-8 grid  grid-cols-1 gap-8  md:grid-cols-2 lg:gap-24 items-center "
         }
       >
         {/*text*/}
-        <div>
+        <div className="ml-[50px]    sm:ml-0">
           <h1
             className={
-              "font-bold text-[#333]  tracking[-0.5px]  text-5xl    mb-8"
+              "font-bold text-[#333]  tracking[-0.5px]  text-3xl  text- sm:text-4xl   md:text-5xl   mb-6 sm:mb-8 "
             }
           >
             Explore Speech-to-Text and Text-to-Speech Easily with{" "}
